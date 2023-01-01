@@ -1,0 +1,39 @@
+.container {
+    border: 1px solid;
+    height: max-content;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.regions {
+    height: 650px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.region {
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: large;
+}
+
+.villes {
+    border: 1px solid;
+    padding: 10px;
+    width: 72%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ville {
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: large;
+}
